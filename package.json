@@ -1,0 +1,25 @@
+{
+  "name": "ghostpay-telegram",
+  "version": "1.0.0",
+  "description": "Telegram support bot for Ghostware",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@slack/webhook": "^7.0.2",
+    "axios": "^1.7.7",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.2"
+  }
+}
